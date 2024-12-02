@@ -7,6 +7,7 @@ function llamadoAApiDeFotosDeGatitoAleatoria(){
         .then(response  => {
             if(!response.ok){
                 console.log("Gatito no encontrado, vuelva a intentar.");
+                console.log("Modificación")
             }
             return response.json();
             }
